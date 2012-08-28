@@ -14,7 +14,7 @@ import org.mule.api.annotations.Processor;
 import org.mule.api.annotations.param.Payload;
 
 /**
- * Generic module
+ * Common utils module
  *
  * @author MuleSoft, Inc.
  */
@@ -28,7 +28,7 @@ public class UtilsModule
 	private ThrottleQueueManager queueManager;
 	
 	/**
-     * Throttle requests
+     * Throttle requests (requires Mule EE!)
      *
      * {@sample.xml ../../../doc/Utils-connector.xml.sample utils:throttle}
      *

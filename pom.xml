@@ -283,4 +283,13 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
+    <scm>
+        <connection>
+            scm:git:git://github.com:javaduke/mule-module-common-utils.git
+        </connection>
+        <developerConnection>
+            scm:git:git@github.com:javaduke/mule-module-common-utils.git
+        </developerConnection>
+        <url>http://github.com/javaduke/mule-module-common-utils</url>
+    </scm>
 </project>
